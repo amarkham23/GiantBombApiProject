@@ -6,8 +6,8 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class GameObject(
     val name: String,
-    val description: String?,
-    val image: ImageUrl
+    val deck: String?,
+    val image: ImageUrl,
 ) : Parcelable {
 
     @Parcelize

@@ -7,7 +7,19 @@
 
     <fragment
         android:id="@+id/gamesListFragment"
-        android:name="com.example.giantbombapiproject.ui.GamesListFragment"
+        android:name="com.example.giantbombapiproject.games.GamesListFragment"
         android:label="game_list_fragment"
-        tools:layout="@layout/game_list_fragment" />
+        tools:layout="@layout/game_list_fragment" >
+        <action
+            android:id="@+id/action_gamesListFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.giantbombapiproject.games.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="game"
+            app:argType="com.example.giantbombapiproject.data.GameObject" />
+    </fragment>
 </navigation>
