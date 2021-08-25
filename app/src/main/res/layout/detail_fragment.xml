@@ -23,7 +23,8 @@
                 android:adjustViewBounds="true"
                 tools:layout_height="300dp"
                 tools:scaleType="centerCrop"
-                tools:src="@mipmap/ic_launcher_round" />
+                tools:src="@mipmap/ic_launcher_round"
+                android:contentDescription="@string/description" />
 
             <TextView
                 android:id="@+id/tv_description"
@@ -37,7 +38,7 @@
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:visibility="gone"
-                tools:text="Brief description of the selected Video Game"
+                tools:text="@string/description"
                 tools:visibility="visible" />
 
         </LinearLayout>

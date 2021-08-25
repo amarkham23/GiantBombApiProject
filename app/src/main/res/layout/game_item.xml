@@ -8,7 +8,8 @@
     <ImageView
         android:id="@+id/image_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:contentDescription="@string/image_description" />
 
     <View
         android:layout_width="match_parent"
@@ -31,6 +32,6 @@
         android:maxLines="1"
         android:textColor="#fff"
         android:textSize="20sp"
-        tools:text="Mario Kart 8" />
+        tools:text="@string/game_title" />
 
 </RelativeLayout>

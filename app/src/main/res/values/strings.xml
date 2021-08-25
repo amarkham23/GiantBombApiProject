@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">GiantBombApiProject</string>
+
+    <string name="description">Brief description of the selected Video Game</string>
+    <string name="image_description">Game Image to be displayed</string>
+    <string name="game_title">Game Title</string>
+    <string name="results_error">Unable to load results</string>
+    <string name="retry_btn">Try again</string>
+    <string name="could_not_find">Results could not be found</string>
+
 </resources>

@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/retry_btn"
         android:layout_centerHorizontal="true"
-        android:text="Unable to load results"
+        android:text="@string/results_error"
         android:visibility="gone"
         tools:visibility="visible" />
 
@@ -36,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Try Again"
+        android:text="@string/retry_btn"
         android:visibility="gone"
         tools:visibility="visible" />
 
@@ -45,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Results could not be found"
+        android:text="@string/could_not_find"
         android:visibility="gone"
         tools:visibility="visible" />
 
